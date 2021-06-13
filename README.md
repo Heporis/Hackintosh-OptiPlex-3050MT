@@ -2,7 +2,7 @@
 
 ## 简介
 
-这是Dell OptiPlex 3050MT的黑苹果EFI文件夹，对于3050的三种型号基本通用。包含opencore 0.6.0配置和clover 5109配置，前者最高支持macOS big sur public beta，后者只测试了macOS Catalina 10.15.6。使用之前，你需要补充SMBios信息。
+这是Dell OptiPlex 3050MT的黑苹果EFI文件夹，对于3050的三种型号基本通用。包含opencore 0.7.0配置和clover 5109配置，前者最高支持macOS big sur 11.4，后者只测试了macOS Catalina 10.15.6。使用之前，你需要补充SMBios信息。
 
 ## 硬件配置
 
