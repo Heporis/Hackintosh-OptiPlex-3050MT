@@ -2,7 +2,7 @@
 
 ## 简介
 
-这是Dell OptiPlex 3050MT的黑苹果EFI文件夹，对于3050的三种型号基本通用。包含opencore 0.7.0配置和clover 5109配置，前者最高支持macOS big sur 11.4，后者只测试了macOS Catalina 10.15.6。使用之前，你需要补充SMBios信息。
+这是Dell OptiPlex 3050MT的黑苹果EFI文件夹，对于3050的三种型号基本通用。包含opencore 0.7.0配置和clover 5109配置，前者支持最新macOS big sur 11.4，后者只测试了macOS Catalina 10.15.6。使用之前，你需要补充SMBios信息。
 
 ## 硬件配置
 
@@ -10,15 +10,13 @@
 * **CPU**:  Intel® Core™ i5-7500
 * **GPU**: Intel® HD Graphics 630
 * **RAM**: 16GB DDR4 2666 Daul Channel
-* **HDD**: KINGSTON SA400S37240G 
+* **SSD**: Samsung 860 EVO 250G 
 * **Ethernet**: Realtek RTL8168/8111
 * **Audio**:Realtek ALC255(3234)
 
 ## 不正常工作
 
 * 睡眠唤醒后黑屏（HDMI）
-* FaceTime，iMessage，HandOff等需要WI-FI才能工作，需安装无线网卡
-* 安装无线网卡需重新定制USB，因为我屏蔽了两个内置USB端口
 
 ## BIOS 设定
 
